@@ -16,8 +16,14 @@ $(document).ready(function(){
     event.preventDefault();
     // debugger;
   var string = $("#input").val();
-  var regex1 = RegExp(/\d/g);
- console.log(regex1.test(string));
+  // var regex1 = RegExp(/\d/g);
+ // console.log(regex1.test(string));
+
+ if (string.match(/\d/g)) {
+    alert ("true")
+ } else {
+   alert ('false')
+ }
 
 
 
