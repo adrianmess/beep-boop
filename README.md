@@ -1,12 +1,18 @@
-# Beep Boop
+## Authors
+ **Adrian Messado**  
+[adrianmess](https://github.com/adrianmess)
 
-#### A program that allows users to input a number and convert it to a Roman numeral, 3/29/2018
+## Project
+Week 3 - Beep Boop!
 
-#### By ** Adrian Messado**
+* Numbers that contain a 0 are replaced (all digits) with "Beep!"
+* Numbers that contain a 1 are replaced (all digits) with "Boop!"
+* Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+
+###### By ** Adrian Messado**
 
 ## Description
-
-A web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with the following exceptions:
+#### Web Program takes a number from a user and returns a range of numbers from 0 to the chosen number with the following exceptions:
 
 * Numbers that contain a 0 are replaced (all digits) with "Beep!"
 * Numbers that contain a 1 are replaced (all digits) with "Boop!"
@@ -15,21 +21,24 @@ A web application that takes a number from a user and returns a range of numbers
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Create a web application that takes a number from a user and | returns a range of numbers from 0 to the chosen number with | |the following exceptions: **
-|
-|
-| * 1. If the number supplied by the user contains a 0, return "Beep!"
-| * 2. If the number supplied by the user contains a 1, return "Boop!"
-| * 3. If the numbers supplied by the are divisible by 3, return "I'm sorry, Dave. I'm afraid I can't do that."
-|
+| Create a web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with the following exceptions:  | 16 | 4
+| 1. If the number supplied by the user contains a 0, return "Beep!" | 0 | Beep!
+| 2. If the number supplied by the user contains a 1, return "Boop!" | 1 | Boop!
+| 3. If the numbers supplied by the are divisible by 3, return "I'm sorry, Dave. I'm afraid I can't do that." | 30 | "I'm sorry, Dave. I'm afraid I can't do that."
 | * A user should be able to enter a new number and see new results over and over again.
 | * Exceptions take place from least to most important
-|   - The first exception should apply unless the second exception does, and the second should apply unless the third one does.
-|
-|
-|
-|
-## Setup/Installation Requirements
+| * The first exception should apply unless the second exception does, and the second should apply unless the third one does.
+
+## Project github link
+https://adrianmess.github.io/beep-boop/
+
+### Installing
+
+git remote add [remote name] https://github.com/adrianmess/beep-boop
+git remote -v  
+git push [remote name] master  
+git clone https://github.com/adrianmess/beep-boop
+
 
 
 
@@ -46,6 +55,7 @@ A web application that takes a number from a user and returns a range of numbers
 ## Support and contact details
 
 _Email no one with any questions, comments, or concerns._
+[adrian.messado@gmail.com](adrian.messado@gmail.com)
 
 ### License
 
