@@ -8,29 +8,35 @@ $(document).ready(function(){
     event.preventDefault();
     // debugger;
   var string = $("#input").val();
+  var randomNumb= Math.floor(Math.random() * string);
 
  // console.log(regex1.test(string));
 
 // if userinput contains characters that are not digits
- if (string.match(/[a-zA-Z]+/g)) {
+ if (string.match(/\D+/g)) {
    alert("Only numbers are permitted. No Soup For YOU!")
  }
 
+
 // If user input
- if (string.match(/\d/g)){
-   if (string.match(/[0]/g)) {
-     alert("Beep!")
-    }
-    else if (string.match(/[1]/g)) {
-      alert("Boop!")
-    }
-    else if (string % 3 === 0) {
-      alert("I'm sorry, Dave. I'm afraid I can't do that.")
-    }
-
+  else if (string % 3 === 0) {
+   alert("I'm sorry, Dave. I'm afraid I can't do that.")
  }
-});
+  // else if (string.match(/\d/g)){
+  //
+  //   }
+  else if (string.match(/[1]/g)) {
+    alert("Boop!")
+  }
 
+  else if (string.match(/[0]/g)) {
+    alert("Beep!")
+    }
+    else {
+      alert(randomNumb)
+    }
+
+});
 });
 // if (string.match(/\d/g)) {
 // } else {
