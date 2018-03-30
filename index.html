@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" >
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-
+  <script type='text/javascript' src='js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/demo.js'></script>
   <title>Beep! Boop!</title>
 </head>
 <body>
-  <form class="formOne" action="index.html" method="post">
-    <input type="input" id="input" name="" value="">
-    <button class="btn" type="submit" name="button">Submit</button>
-  </form>
-  <h2 id="h2"></h2>
+  <div class="bg"></div>
+  <div class="bg hidden"></div>
+  <div id="particles">
+    <div id="intro">
+      <p  href=""> Welcome To Beep Boop! </p>
+
+      <form class="formOne" action="index.html" method="post">
+        <input type="input" id="input" name="" value="">
+        <p></p>
+        <p><img src="img/boop.gif" width="20%"  class="d-inline-block align-top" alt="" id="image"></p>
+        <p><button class="btn btn-outline-success" type="submit" name="button">Submit</button></p>
+        <h2 id="h2"></h2>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

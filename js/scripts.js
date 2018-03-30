@@ -2,6 +2,16 @@
 //Business - Back-End Logic
 //--------------------------||
 
+// function SetOpacity('##image', opacity ) {
+//     var s= document.getElementById('#image').style;
+//     s.opacity = ( opacity / 50 );
+//     s.MozOpacity = ( opacity / 50 );
+//     s.KhtmlOpacity = ( opacity / 50 );
+//     s.filter = 'alpha(opacity=' + opacity + ')';
+// }
+
+
+
 var compute = function(string) {
   if (string.match(/\D+/g)) {
     $("#h2").text("Only numbers are permitted. No Soup For YOU!")
@@ -14,7 +24,6 @@ var compute = function(string) {
   }
   else if (string.match(/[0]/g)) {
     $("#h2").text("Boop!")
-
   }
   else {
     var randomNumb= Math.floor(Math.random() * string);
@@ -30,10 +39,9 @@ var compute = function(string) {
 $(document).ready(function(){
   $(".formOne").submit(function(event) {
     event.preventDefault();
-    // debugger;
+
     var string = $("#input").val();
-    // var randomNumb= Math.floor(Math.random() * string);
     var result = compute(string);
-    $("#h2").text(result);
   });
 });
+$('#image').css('opacity', .5);
