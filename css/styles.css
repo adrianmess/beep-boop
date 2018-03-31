@@ -174,3 +174,11 @@ p
  {
   padding: 1px;
 }
+
+a#tinyp {
+  font-size: 12px;
+}
+
+a#welcomeTo {
+  font-size: 25px;
+}
