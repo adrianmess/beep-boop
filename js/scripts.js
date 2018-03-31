@@ -8,12 +8,12 @@ var compute = function(string) {
   }
   else if (string % 3 === 0) {
     $("#h2").text("I'm sorry, Dave. I'm afraid I can't do that.")
-  }
+  } 
   else if (string.match(/[1]/g)) {
     $("#h2").text("Boop!")
   }
   else if (string.match(/[0]/g)) {
-    $("#h2").text("Boop!")
+    $("#h2").text("Beep!")
   }
   else {
     var randomNumb= Math.floor(Math.random() * string);

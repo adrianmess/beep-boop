@@ -25,6 +25,7 @@ Week 3 - Beep Boop!
 | 1. If the number supplied by the user contains a 0, return "Beep!" | 0 | Beep!
 | 2. If the number supplied by the user contains a 1, return "Boop!" | 1 | Boop!
 | 3. If the numbers supplied by the are divisible by 3, return "I'm sorry, Dave. I'm afraid I can't do that." | 30 | "I'm sorry, Dave. I'm afraid I can't do that."
+| 4. If user enters a non-number | *& | "Only numbers are permitted. No Soup For YOU!"
 | * A user should be able to enter a new number and see new results over and over again.
 | * Exceptions take place from least to most important
 | * The first exception should apply unless the second exception does, and the second should apply unless the third one does.
@@ -49,8 +50,11 @@ git clone https://github.com/adrianmess/beep-boop
 * HTML
 * JavaScript
   * Jquery
+  * demo.js for particleground
+  * *Refer to demo folder for details*
 * Css
   * BootStrap
+
 
 ## Support and contact details
 

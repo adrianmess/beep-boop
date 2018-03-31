@@ -4,7 +4,7 @@ http://meyerweb.com/eric/tools/css/reset/
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -50,8 +50,8 @@ table {
 
 * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html, body {
@@ -77,7 +77,7 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 10%;
+  top: 50%;
   padding: 0 20px;
   width: 100%;
   text-align: center;
@@ -113,9 +113,9 @@ p {
   color: #fff;
   text-decoration: none;
   -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
 }
 .btn:hover {
   color: #005544;
@@ -162,15 +162,4 @@ p {
   h1::after {
     height: 4px;
   }
-}
-
-form, input {
-  text-align: center;
-    font-size: 18px
-  padding: 20px;
-}
-
-p
- {
-  padding: 1px;
 }
