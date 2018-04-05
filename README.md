@@ -14,10 +14,12 @@ Week 3 - Beep Boop!
 * Numbers that contain a 1 are replaced (all digits) with "Boop!"
 * Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 
+
+
 ### Specs
 | Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| Create a web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with the following exceptions:  | 16 | 4
+| :   
+| Create a web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with the following exceptions:  | 1203 | Boop!2Beep!I'm Sorry, Dave. I'm afraid i Can't do that."
 | 1. If the number supplied by the user contains a 0, return "Beep!" | 0 | Beep!
 | 2. If the number supplied by the user contains a 1, return "Boop!" | 1 | Boop!
 | 3. If the numbers supplied by the are divisible by 3, return "I'm sorry, Dave. I'm afraid I can't do that." | 30 | "I'm sorry, Dave. I'm afraid I can't do that."
