@@ -14,19 +14,35 @@ function verifyNumber(numberInput) {
 }
  else
      var numberIndex = numberInput.split('');{
-     // var numberIndex =
-     var index = function modulo(numberIndex) {
-        (i = 0; i < index.length; 1++)
-       if (i % 3 === 0)
+       var newArray = numberIndex.slice();
+       console.log(newArray)
+ //replace element?
+       // while (numberIndex.indexof.numberIndex == numberIndex % 3 === 0); {
+       //   numberIndex.splice(numberIndex.indexof(numberIndex),1,"Sorry test");
 
        }
+       for (var i = 0, l = numberIndex.length; i < l; i++) {
+         if (newArray[i] % 3 === 0) {
+           newArray.splice(newArray.indexOf("3"),1,"**");
+           console.log(newArray)
+         }
+       }
+
+
+     // var numberIndex =
+     // var index = function modulo(numberIndex) {
+     //    (i = 0; i < index.length; 1++)
+     //   if (i % 3 === 0) {
+     //    i.replace()}
+     //
+     //   }
+     console.log(numberIndex)
    }
- }
- console.log(numberIndex.length)
 
 
- console.log(numberIndex)
- };
+
+
+
 //traverse array
       // var super = function(numberIndex){
       //   (i % 3 === 0)
@@ -44,10 +60,10 @@ function verifyNumber(numberInput) {
 //
 // }
 
-        console.log(numberIndex.length)
+        // console.log(numberIndex.length)
 
         // console.log(i)
-        console.log(numberIndex)
+        // console.log(numberIndex)
       //   //verify if number divisible by 3
       //   if (i % 3 === 0) {
       //     console.log("divisible by 3 working")
