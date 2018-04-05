@@ -15,23 +15,47 @@ function verifyNumber(numberInput) {
  else
      var numberIndex = numberInput.split('');{
      // var numberIndex =
+     var index = function modulo(numberIndex) {
+        (i = 0; i < index.length; 1++)
+       if (i % 3 === 0)
+
+       }
    }
+ }
+ console.log(numberIndex.length)
+
+
+ console.log(numberIndex)
+ };
 //traverse array
-      // var  = (i % 3 === 0)
-      console.log(numberIndex)
-      for (var i = i % 3 === 0; i < numberIndex.length; i++) {
-        numberIndex.push(i+"")
-        console.log(i)
+      // var super = function(numberIndex){
+      //   (i % 3 === 0)
+      // }
+      // console.log(numberIndex)
+      // numberIndex.forEach( (divThree) {
+      //   var i = divThree.
+      //   var modulo = i % 3 === 0
+      // } i; i % 3 === 0; ; i++) {
+
+
+
+// }
+// if ( i % 3 === 0) {
+//
+// }
+
+        console.log(numberIndex.length)
+
+        // console.log(i)
         console.log(numberIndex)
       //   //verify if number divisible by 3
       //   if (i % 3 === 0) {
       //     console.log("divisible by 3 working")
       //     // alert("division by 33 working?")
 
+        // console.log(map1)
 
-          // console.log(map1)
-        }
-      }
+
         // console.log(numberIndex);
 
    // return numberIndex;
