@@ -16,17 +16,30 @@ function verifyNumber(numberInput) {
      var numberIndex = numberInput.split('');{
      // var numberIndex =
    }
+//traverse array
+      // var  = (i % 3 === 0)
+      console.log(numberIndex)
+      for (var i = i % 3 === 0; i < numberIndex.length; i++) {
+        numberIndex.push(i+"")
+        console.log(i)
+        console.log(numberIndex)
+      //   //verify if number divisible by 3
+      //   if (i % 3 === 0) {
+      //     console.log("divisible by 3 working")
+      //     // alert("division by 33 working?")
 
-      for (i = 0 ; i < numberIndex.length; i++) {
-        if (numberIndex[i] % 3 === 0) {
-          alert("division by 33 working?")
+
+          // console.log(map1)
         }
       }
-   return numberIndex; {
+        // console.log(numberIndex);
 
-}
-
-}
+   // return numberIndex;
+//    console.log(numberIndex); {
+//
+// }
+//
+// }
 
 
    // (numberInputInt.match(/\D+/g))
@@ -49,6 +62,7 @@ $(document).ready(function(){
     console.log(typeof numberInputInt);
     var output = verifyNumber(numberInput);
     console.log(output);
+
     // $("#output").text(verifyNumber(numberInputInt))
   })
 
