@@ -2,23 +2,30 @@
 //Business - Back-End Logic
 //--------------------------||
 
-//Determine if input is a number or not. {
+//The Beep Boop soul purpose
 
-function verifyNumber(numberInput) {
-  if (isNaN(numberInput)) {
+function beepBoop(numberInput) {
+  var outPut = []
+  var numberInputInt = parseInt(numberInput);
 
-    return "Only numbers are permitted. No Soup For YOU!";
-  //   console.log(numberInputInt)
+  for (var i = 0; i <= numberInputInt; i++ ) {
+    if (i % 3 === 0 && i !== 0) {
+      outPut.push("I'm sorry Dave, I can't do that");
+    } else if (i.toString().includes("1")) {
+      outPut.push("BOOP!");
+    }  else if (i.toString().includes("0")) {
+      outPut.push("BEEP!");
+    } else {
+      outPut.push(i);
+    }
+  }
+  return outPut;
+  console.log(outPut);
 }
- else
 
-     var numberIndex = numberInput.split('');{
-       console.log(numberIndex)
-       var arrayOfNumbers = numberIndex.map(Number);
-       console.log(arrayOfNumbers)
 
-       }
-     };
+
+
 
 //--------------------------||
 //User - Front-End Logic
@@ -28,12 +35,7 @@ $(document).ready(function(){
   $("form.formOne").submit(function(event){
     event.preventDefault();
     var numberInput = $("#userInput").val();
-    console.log(numberInput);
-    console.log(typeof numberInput);
-    var numberInputInt = parseInt(numberInput);
-    console.log(numberInputInt);
-    console.log(typeof numberInputInt);
-    var output = verifyNumber(numberInput);
+    var output = beepBoop(numberInput);
     console.log(output);
 
     // $("#output").text(verifyNumber(numberInputInt))
