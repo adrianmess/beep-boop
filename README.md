@@ -20,10 +20,10 @@ Week 3 - Beep Boop!
 | Spec | Input | Output |
 | :   
 | Create a web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with the following exceptions:  | 1203 | Boop!2Beep!I'm Sorry, Dave. I'm afraid i Can't do that."
-| 1. If the number supplied by the user contains a 0, return "Beep!" | 0 | Beep!
-| 2. If the number supplied by the user contains a 1, return "Boop!" | 1 | Boop!
-| 3. If the numbers supplied by the are divisible by 3, return "I'm sorry, Dave. I'm afraid I can't do that." | 30 | "I'm sorry, Dave. I'm afraid I can't do that."
-| 4. If user enters a non-number | *& | "Only numbers are permitted. No Soup For YOU!"
+| 1. If the number in number range contains a 0, return "Beep!" | 0 | Beep!
+| 2. If the number in number range contains a 1, return "Boop!" | 1 | Boop!
+| 3. If the numbers in number range are divisible by 3, return "I'm sorry, Dave. I'm afraid I can't do that." | 30 | "I'm sorry, Dave. I'm afraid I can't do that."
+| 4. If user enters a non-number | hello | "You must enter number! No Soup for YOU!!!"
 | * A user should be able to enter a new number and see new results over and over again.
 | * Exceptions take place from least to most important
 | * The first exception should apply unless the second exception does, and the second should apply unless the third one does.
