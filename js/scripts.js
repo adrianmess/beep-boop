@@ -2,7 +2,7 @@
 //Business - Back-End Logic
 //--------------------------||
 
-//The Beep Boop soul purpose
+//The Beep Boop's soul
 
 function beepBoop(numberInput) {
   var outPut = []
@@ -15,16 +15,13 @@ function beepBoop(numberInput) {
       outPut.push("BOOP!");
     }  else if (i.toString().includes("0")) {
       outPut.push("BEEP!");
+      alert(outPut);
     } else {
       outPut.push(i);
     }
   }
   return outPut;
 }
-
-
-
-
 
 //--------------------------||
 //User - Front-End Logic
@@ -35,9 +32,6 @@ $(document).ready(function(){
     event.preventDefault();
     var numberInput = $("#userInput").val();
     var beepBoopOut = beepBoop(numberInput);
-    console.log(beepBoopOut);
-
     $("#output").text(beepBoopOut)
   })
-
 });
