@@ -8,7 +8,7 @@ function beepBoop(numberInput) {
   var outPut = []
   var numberInputInt = parseInt(numberInput);
 
-  for (var i = 0; i <= numberInputInt; i++ ) {
+  for (var i = 1; i <= numberInputInt; i++ ) {
     if (i % 3 === 0 && i !== 0) {
       outPut.push("I'm sorry Dave, I can't do that");
     } else if (i.toString().includes("1")) {
@@ -20,7 +20,6 @@ function beepBoop(numberInput) {
     }
   }
   return outPut;
-  console.log(outPut);
 }
 
 
@@ -35,10 +34,10 @@ $(document).ready(function(){
   $("form.formOne").submit(function(event){
     event.preventDefault();
     var numberInput = $("#userInput").val();
-    var output = beepBoop(numberInput);
-    console.log(output);
+    var beepBoopOut = beepBoop(numberInput);
+    console.log(beepBoopOut);
 
-    // $("#output").text(verifyNumber(numberInputInt))
+    $("#output").text(beepBoopOut)
   })
 
 });
