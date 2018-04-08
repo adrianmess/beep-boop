@@ -1,4 +1,0 @@
-   var numberIndex = numberInput.split('');{
-       console.log(numberIndex)
-       var arrayOfNumbers = numberIndex.map(Number);
-       console.log(arrayOfNumbers)
